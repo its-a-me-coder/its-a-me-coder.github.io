@@ -109,7 +109,7 @@ section {
   width: auto;
   height: 170px;
   transform: rotateY(180deg);
-  margin-right: 40rem;
+  margin: 1rem;
 }
 .computer-hand {
   width: auto;
