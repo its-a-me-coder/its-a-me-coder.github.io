@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake, Water, Gun</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="game">
+      <div class="score">
+        <div class="player-points">
+          <h2>Player</h2>
+          <p>0</p>
+        </div>
+        <div class="computer-points">
+          <h2>Computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+      <div class="intro">
+        <h1>Snake, Water, Gun</h1>
+        <button>Lets play</button>
+      </div>
+      <div class="match fadeOut">
+        <h2 class="winner">Choose an option</h2>
+        <div class="weapons">
+          <img src="./img/gun.png" alt="" class="player-hand" />
+          <img src="./img/gun.png" alt="" class="computer-hand" />
+        </div>
+        <div class="weapons-type">
+          <button class="snake">snake</button>
+          <button class="water">water</button>
+          <button class="gun">gun</button>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
